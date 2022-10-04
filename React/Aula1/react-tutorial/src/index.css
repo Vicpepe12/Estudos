@@ -1,1 +1,36 @@
-    
+div {
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+.title{
+    color: rgb(70, 70, 70);
+}
+
+.alunos{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+thead{
+    border-bottom: 2px solid rgb(30, 30, 30);
+}
+
+th {
+    color: rgb(70, 70, 70);
+}
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;    
+    max-width: 100%;
+}
+
+.tableDiv{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

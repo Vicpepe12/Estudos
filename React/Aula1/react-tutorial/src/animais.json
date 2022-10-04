@@ -1,0 +1,100 @@
+{
+    "animaisJson": [
+        {
+            "animal": "Cachorro",
+            "nome": "Pimentinha",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 13
+        },{
+            "animal": "Cachorro",
+            "nome": "Duke",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 13
+        },
+        {
+            "animal": "Gato",
+            "nome": "Tom",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 18
+        },
+        {
+            "animal": "Coelho",
+            "nome": "João Pedro Batista Mendes",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 9
+        },
+        {
+            "animal": "Papagaio",
+            "nome": "Gilberto",
+            "classe": "Ave",
+            "quantidadeDePatas": 2,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 80
+        },
+        {
+            "animal": "Jacaré",
+            "nome": "Toby",
+            "classe": "Réptil",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Nem tanto",
+            "expectativaDeVida": 50
+        },
+        {
+            "animal": "Jabuti",
+            "nome": "Thor",
+            "classe": "Réptil",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 100
+        },
+        {
+            "animal": "Aranha",
+            "nome": "Peter",
+            "classe": "Aracnídeos",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Nem tanto",
+            "expectativaDeVida": 1
+        },
+        {
+            "animal": "Elefante",
+            "nome": "Fernandinho",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Nem tanto",
+            "expectativaDeVida": 70
+        },
+        {
+            "animal": "Gavião",
+            "nome": "Sam",
+            "classe": "Ave",
+            "quantidadeDePatas": 2,
+            "domesticavel": "Nem tanto",
+            "expectativaDeVida": 15
+        },
+        {
+            "animal": "Chinchila",
+            "nome": "Denis",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 10
+        },
+        {
+            "animal": "Porquinho da Índia",
+            "nome": "Denis Jr.",
+            "classe": "Mamífero",
+            "quantidadeDePatas": 4,
+            "domesticavel": "Domesticável",
+            "expectativaDeVida": 8
+        }
+    ]
+    
+}
