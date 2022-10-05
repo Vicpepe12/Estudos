@@ -4,21 +4,24 @@ const TableHeader = () =>{
     return (
         <thead>
         <tr>
-            <th>Animal</th>
+            <th>Avatar</th>
+            <th>Usuário do GitHub</th>
             <th>Nome</th>
-            <th>É domesticável?</th>
+            <th>Link</th>
+            {/* <th>Número de Repositórios</th> */}
         </tr>
         </thead>
     )
 }
 
 const TableBody = (props) =>{
-    const rows = props.animaisArray.map((obj) => {
+    const rows = props.array.map((obj) => {
         return(
             <tr>
-                <td>{obj.animal}</td>
-                <td>{obj.nome}</td>
-                <td>{obj.domesticavel}</td>
+                <td><img src = {obj.avatar_url} width='100'></img></td>
+                <td>{obj.login}</td>
+                <td>{obj.name}</td>
+                <td><a href={obj.html_url}>{obj.html_url}</a></td>
             </tr>
         )
     })
@@ -29,13 +32,13 @@ const TableBody = (props) =>{
 
 class Table extends Component {
     render() {
-        const {animasArray} = this.props
+        const {array} = this.props
 
         return (
             <div className='tableDiv'>
             <table className='alunos'>
                 <TableHeader/>
-                <TableBody animaisArray={animaisArray}/>
+                <TableBody array={array}/>
             </table>
             </div>
         )
