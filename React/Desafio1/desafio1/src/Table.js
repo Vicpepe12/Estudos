@@ -5,7 +5,7 @@ const TableHeader = () =>{
         <thead>
         <tr>
             <th>Avatar</th>
-            <th>Usuário do GitHub</th>
+            <th>Username</th>
             <th>Nome</th>
             <th>Link</th>
             {/* <th>Número de Repositórios</th> */}

@@ -21,7 +21,7 @@ class App extends Component {
       .then(this.getUser('https://api.github.com/users/Vicpepe12'));
   }
   
-  
+
     async getUser(url) {
       async function getAPI(url) {
         let response = await fetch(url);
