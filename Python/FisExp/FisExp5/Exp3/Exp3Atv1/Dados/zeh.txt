@@ -1,0 +1,7 @@
+6369 alpha(6)
+3580 beta(5)
+2720 gamma(4)
+2342 delta(3?)
+2338 epsilon(3?)
+8404 (alpha + 4?) 
+5669 (alpha -2?)
